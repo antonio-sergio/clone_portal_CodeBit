@@ -1,3 +1,9 @@
+Projeto de um clone de um portal da CodeBit focada em iniciativas de educação, saúde e conhecimento.
+
+Projeto feito com React.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
