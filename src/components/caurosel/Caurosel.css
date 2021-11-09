@@ -1,0 +1,14 @@
+.caurosel  {
+    position: relative;
+    top: -1200px;
+    right: -1000px;
+    height: 300px;
+    width: 300px;
+    
+}
+
+.caurosel img {
+    width: 100%;
+    height: 100%;
+
+}

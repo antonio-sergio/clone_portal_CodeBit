@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import "./Banner.css";
-import BannerImg from './img/happy-face-1.png'
 
 export default class Banner extends Component{
     render(){
