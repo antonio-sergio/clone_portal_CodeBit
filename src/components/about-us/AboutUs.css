@@ -1,0 +1,35 @@
+
+:root {
+    --primary-color: #2d2d2d;
+    --secondary-color: #1fe070;
+    --tercy-color: #ffffff;
+}
+
+p {
+    position: relative;
+    color: var(--tercy-color)
+}
+
+.who-are-we {
+    width: 55vw;
+    height: 40vh;
+    position: relative;
+    top: -23em;
+    left: 8em;
+}
+
+
+.who-are-we span{
+    color: var(--secondary-color)
+}
+
+.who-are-we h3{
+    padding: 1em 5em;
+    color: var(--tercy-color)
+}
+
+.who-are-we p{
+    line-height: 30px;
+    margin: 0.5rem;
+    font-size: 20px;
+}

@@ -14,12 +14,12 @@ function App() {
   return (
     <div className="App">
       <Menu />
+      <PauseOnHover />
       <Banner />
       <AboutUs />
       <WhatWeDo />
       <HowWeDo />
       <Contact />
-      <PauseOnHover />
     </div>
   );
 }

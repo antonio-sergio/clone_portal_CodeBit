@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import headImg from './img/head-menu-bar-codebit-large.png';
 import certifiedImg from './img/b-corporation.png';
 import awsImg from './img/aws-consulting-partner.png';
-import './Menu.css'
+import './Menu.css';
+
 
 export default class Menu extends Component{
     render(){
