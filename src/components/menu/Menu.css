@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #2d2d2d;
+    --secondary-color: #1fe070;
+    --tercy-color: #ffffff;
+}
+
+/* links */
+a {
+    color: var(--tercy-color);
+}
+
+.active {
+    background-color: var(--secondary-color);
+}
+
+.active a {
+    color: var(--primary-color);
+}
+
+
+/* menu de navegação */
+.nav-menu {
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav-links ul li{
+    margin-right: 2em;
+    padding: 0.3em 0;
+}
+
+
+/* imagens do menu */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certifieds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certifieds img{
+    margin: 0.5em 1em;
+}
