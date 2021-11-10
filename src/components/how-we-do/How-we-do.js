@@ -6,6 +6,24 @@ import calendarImg from "./img/calendar.png";
 import greetingImg from "./img/greeting.png";
 import openSourceImg from "./img/open-source.png";
 import cloudNpoImg from "./img/img-npo-site.png";
+import separtorImg from "./img/partners /separator.png";
+
+// partners
+import customerCenpecImg from "./img/partners /customers-cenpec.png";
+import customerFLemannImg from "./img/partners /customers-fundacao-lemann.png";
+import customerFTelefonicaVivoImg from "./img/partners /customers-fundacao-telefonica-vivo.png";
+import customerIceImg from "./img/partners /customers-ice.png";
+import customerInspirareImg from "./img/partners /customers-inspirare.png";
+import customerIttAirtonSennaImg from "./img/partners /customers-instituto-ayrton-senna.png";
+import customerIttNaturaImg from "./img/partners /customers-instituto-natura.png";
+import customerIttUnibancoImg from "./img/partners /customers-instituto-unibanco.png";
+import customerItauCulturalImg from "./img/partners /customers-itau-cultural.png";
+import customerItauSocial from "./img/partners /customers-itau-social.png";
+import customerMSFImg from "./img/partners /customers-msf.png";
+import customerNovaEscolaImg from "./img/partners /customers-nova-escola.png";
+import customerSamsungImg from "./img/partners /customers-samsung.png";
+import customerSincorImg from "./img/partners /customers-sincor.png";
+import customerSindusconImg from "./img/partners /customers-sinduscon.png";
 
 export default class HowWeDo extends Component{
     render(){
@@ -111,7 +129,29 @@ export default class HowWeDo extends Component{
                         <a href="/">Saiba mais</a>
                     </div>
                 </div>
-                <div></div>
+                <div>
+                    <h3>Quais causas já apoiamos?</h3>
+                    <img src={separtorImg} alt="setas opostas apontando para esquerda e direita"></img>
+                    <h5>Quem Confia na Codebit?</h5>
+                    <div>
+                        <img src={customerItauSocial} alt="logo do itau social"></img>
+                        <img src={customerInspirareImg} alt="logo da inspirare"></img>
+                        <img src={customerCenpecImg} alt="logo da cenpec"></img>
+                        <img src={customerFLemannImg} alt="logo da fundação Lemann"></img>
+                        <img src={customerIttNaturaImg} alt="logo do instituto Natura"></img>
+                        <img src={customerMSFImg} alt="logo do médicos sem fronteira"></img>
+                        <img src={customerItauCulturalImg} alt="logo do itau cultural"></img>
+                        <img src={customerSamsungImg} alt="logo da samsung"></img>
+                        <img src={customerNovaEscolaImg} alt="logo da nova escola"></img>
+                        <img src={customerSincorImg} alt="logo da sincor"></img>
+                        <img src={customerIceImg} alt="logo da ice"></img>
+                        <img src={customerSindusconImg} alt="logo da sinduscor"></img>
+                        <img src={customerIttUnibancoImg} alt="logo do instituto unibanco"></img>
+                        <img src={customerFTelefonicaVivoImg} alt="logo da fundação telefônica"></img>
+                        <img src={customerIttAirtonSennaImg} alt="logo do instituto Ayrton Senna"></img>
+
+                    </div>
+                </div>
             </div>
         )
     }
