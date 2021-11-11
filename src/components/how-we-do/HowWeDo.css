@@ -3,3 +3,96 @@
     --secondary-color: #1fe070;
     --tercy-color: #ffffff;
 }
+
+.values {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.values-1 > div:nth-child(1) > div:nth-child(1) > h3:nth-child(1){
+    margin-left: -10em;
+    margin-bottom: -1em;
+}
+.values-1{
+    display: flex;
+    max-width: 80vw;
+    justify-content: space-between;
+}
+
+.values-1 ul{
+    list-style-type: none;
+    margin-top: 2em;
+    margin-left: -10em;
+}
+.values-1 ul li{
+    font-size: 40px;
+    margin: 8px;
+    font-weight: bold;
+}
+
+.values-1 div{
+    width: 50%;
+}
+
+.values-1 div p{
+    width: 450px;
+    margin-top: 1em;
+}
+
+
+.item-values {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+
+.values h6{
+    font-size: 20px;
+}
+
+.item-values-img {
+    margin-bottom: 2em;
+   
+}
+
+.values-grid {
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.values-grid div{
+    padding-top: 2em;
+    width: 35em;
+    height: 20em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.values-grid div img{
+    width: 50%;
+    margin: 5em;
+}
+
+div.values-grid > div > div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -6em;
+}
+
+.grid-item-text{
+    margin-top: 5em;
+}
+
+

@@ -18,16 +18,23 @@
 .banner h1 {
     position: relative;
     color: var(--secondary-color);
-    top: 10em;
+    top: 5em;
     
+}
+
+.banner div h1 {
+    font-size: 50px;
+    font-weight: 400;
 }
 
 .banner h2 {
     position: relative;
     color: var(--tercy-color);
-    top: 15em;
+    top: 11em;
 }
 
 .banner div {
     margin-left: 9em;
 }
+
+

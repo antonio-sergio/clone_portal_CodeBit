@@ -10,11 +10,12 @@ p {
     color: var(--tercy-color)
 }
 
+
 .who-are-we {
     width: 55vw;
     height: 40vh;
     position: relative;
-    top: -23em;
+    top: -25em;
     left: 8em;
 }
 
@@ -24,12 +25,14 @@ p {
 }
 
 .who-are-we h3{
-    padding: 1em 5em;
-    color: var(--tercy-color)
+    padding: 0.5em 10em;
+    color: var(--tercy-color);
+    font-size: 12px;
 }
 
 .who-are-we p{
     line-height: 30px;
-    margin: 0.5rem;
+    margin: 2rem 0.5rem;
     font-size: 20px;
+    color: var(--tercy-color)
 }

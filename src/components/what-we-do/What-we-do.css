@@ -4,6 +4,82 @@
     --tercy-color: #ffffff;
 }
 
-h1 {
+.whatWeDo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
     color: var(--secondary-color)
 }
+
+.whatWeDo h4 {
+    font-size: 50px;
+    padding-top: 0.5em;
+}
+
+.whatWeDo h3 {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.solutions {
+    display: flex;
+    max-width: 60vw;
+    margin: 3em auto;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.solutions div{
+    width: 50%;
+    padding-right: 2em;
+}
+
+
+
+.solutions h5, p{
+    color: var(--primary-color);
+    margin: 2em 0;
+}
+
+.solutions h5{
+    font-size: 30px;
+    margin: 0;
+}
+
+.solutions > div:nth-child(2) > p:nth-child(3){
+    border-left: solid 3px var(--secondary-color);
+    padding-left: 1em;
+}
+
+.services{
+    display: flex;
+    max-width: 90vw;
+    padding-bottom: 4em;
+}
+
+.services div{
+    margin: 3em;
+    text-align: center;
+    list-style-type: none;
+    min-width: 15em;
+}
+
+.services div ul{
+    list-style-type: none;
+}
+
+.services div ul li{
+    font-size: 12px;
+}
+
+.services div h6{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 20px;
+}
+
+

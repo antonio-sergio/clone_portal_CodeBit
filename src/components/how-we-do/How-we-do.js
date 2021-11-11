@@ -29,32 +29,35 @@ export default class HowWeDo extends Component{
     render(){
         return (
             <div className="how-we-do">
-                <div>
-                    <h3><span>///</span>COMO FAZEMOS</h3>
-                    <div>
+                <div className="values">
+                    
+                    <div className="values-1">
                         <div>
+                            <div>
+                                <h3><span>///</span>COMO FAZEMOS</h3>
+                            </div>
                             <ul>
                                 <li>Qualidade</li>
                                 <li>Compromisso</li>
                                 <li>Impacto</li>
                             </ul>
                         </div>
-                        <div>
-                            <div>
+                        <div className="item-values">
+                            <div className="item-values-img">
                                 <img src={calendarImg} alt="imagem de um calendário"></img>
                             </div>
-                            <div>
+                            <div >
                                 <h6>Prazo</h6>
                                 <p>Missão dada é missão cumprida. Quando prometemos algo, nós entregamos, sem desculpas.</p>
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div>
+                    <div className="values-grid">
+                        <div className="grid-item">
                             <div>
                                 <img src={greetingImg} alt="imagem de mãos simbolizando gratidão"></img>
                             </div>
-                            <div>
+                            <div className="grid-item-text">
                                 <h6>Valor Justo</h6>
                                 <p>
                                     Contando com times divididos na capital e interior de São Paulo, reduzimos custos operacionais.
@@ -64,11 +67,11 @@ export default class HowWeDo extends Component{
                                 </p>
                             </div>
                         </div>
-                        <div>
+                        <div className="grid-item">
                             <div>
                                 <img src={awsImg} alt="logo tipo da aws"></img>
                             </div>
-                            <div>
+                            <div className="grid-item-text">
                                 <h6>Certificação AWS</h6>
                                 <p>
                                     Somos parceiros especialistas em fornecer soluções em nuvem, principalmente para institutos
@@ -79,12 +82,12 @@ export default class HowWeDo extends Component{
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div>
+                    <div className="values-grid">
+                        <div className="grid-item">
                             <div>
                                 <img src={openSourceImg} alt="logo de serviços de código fonte abertos"></img>
                             </div>
-                            <div>
+                            <div className="grid-item-text">
                                 <h6>Código Aberto</h6>
                                 <p>
                                     Todo código fonte das soluções que fazemos é propriedade do solicitante, que continua conosco se assim desejar.
@@ -92,11 +95,11 @@ export default class HowWeDo extends Component{
                                 </p>
                             </div>
                         </div>
-                        <div>
+                        <div className="grid-item">
                             <div>
                                 <img src={agilityImg} alt="representando agiliade e visibilidade"></img>
                             </div>
-                            <div>
+                            <div className="grid-item-text">
                                 <h6>Agilidade e visibilidade</h6>
                                 <p>
                                     Usamos um modelo híbrido de gestão de projetos que une a flexibilidade das metodologias ágeis ao rigor da gestão 

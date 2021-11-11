@@ -16,15 +16,15 @@ export default class WhatWeDo extends Component{
                     <h3><span>///</span>O QUE FAZEMOS</h3>
                     <h4>Quais Tecnologias e Produtos?</h4>
                 </div>
-                <div>
+                <div className="solutions">
                     <div>
                         <img src={customMade} alt="uma fita métrica expressando coisas sob medidas"></img>
                     </div>
                     <div>
                         <h5>Soluções sob medida</h5>
                         <p>
-                            Especializados na criação de portais e plataformas web, sistemas complexos de integração, 
-                            aplicativos Android e iOS, além de hardwares e dispositivos eletrônicos, nós conseguimos 
+                            Especializados na <strong>criação de portais e plataformas web, sistemas complexos de integração, 
+                            aplicativos Android e iOS</strong>, além de hardwares e dispositivos eletrônicos, nós conseguimos 
                             dar vida a quaisquer ideias e demandas, desde portais simples até complexas plataformas 
                             e dispositivos integrados. Tudo construído sob medida para se adequar perfeitamente a cada 
                             necessidade.
@@ -34,11 +34,8 @@ export default class WhatWeDo extends Component{
                         </p>
                     </div>
                 </div>
-                <div>
-                <div>
-                        <img src={cloudImg} alt="desenho de uma nuvem representando armazenamento de dados em nuvem"></img>
-                    </div>
-                    <div>
+                <div className="solutions">
+                    <div >
                         <h5>Infraestrutura em nuvem</h5>
                         <p>
                             Gestão de ambientes em nuvem com suporte 24x7, monitoramento, backups, atualizações de
@@ -49,8 +46,11 @@ export default class WhatWeDo extends Component{
                             Parceria exclusiva com AWS, líder global em infraestrutura em nuvem.
                         </p>
                     </div>
+                    <div>
+                        <img  src={cloudImg} alt="desenho de uma nuvem representando armazenamento de dados em nuvem"></img>
+                    </div>
                 </div>
-                <div>
+                <div className="services">
                     <div>
                         <img src={webSystemsImg} alt="imagem de 3 letras w representando sistemas web" ></img>
                         <h6>Sistemas Web</h6>
@@ -62,7 +62,7 @@ export default class WhatWeDo extends Component{
                         </ul>
                     </div>
                     <div>
-                        <img src={appImg} alt="imagem de 3 letras w representando sistemas web" ></img>
+                        <img src={appImg} alt="imagem de um celular representando telefonia móvel" ></img>
                         <h6>Aplicativos Mobile</h6>
                         <ul>
                             <li>Aplicativos iOS & Android</li>
@@ -72,7 +72,7 @@ export default class WhatWeDo extends Component{
                         </ul>
                     </div>
                     <div>
-                        <img src={integrationImg} alt="imagem de 3 letras w representando sistemas web" ></img>
+                        <img src={integrationImg} alt="" ></img>
                         <h6>Integração</h6>
                         <ul>
                             <li>Data Lakes</li>
@@ -82,7 +82,7 @@ export default class WhatWeDo extends Component{
                         </ul>
                     </div>
                     <div>
-                        <img src={infrastructureImg} alt="imagem de 3 letras w representando sistemas web" ></img>
+                        <img src={infrastructureImg} alt="" ></img>
                         <h6>Gestão de infraestrutura</h6>
                         <ul>
                             <li>Consultoria e migração para nuvem</li>
