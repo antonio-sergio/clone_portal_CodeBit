@@ -36,3 +36,69 @@ p {
     font-size: 20px;
     color: var(--tercy-color)
 }
+
+.NPOs {
+    display: flex;
+    margin: 7em;
+}
+
+.NPOs div{
+    padding: 1em;
+}
+
+.NPOs div h4 {
+    font-weight: 100;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 1em;
+}
+
+.NPOs div h4 strong{
+    font-weight: bold;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.NPOs div p{
+    border-left: 10px solid var(--secondary-color);
+    padding-left: 0.5em;
+    color: #7d7d7d;
+    line-height: 30px;
+    width: 50em;
+}
+
+.NPOs div a{
+    padding-left: 2em;
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+
+/* customers */
+.customers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 82vw;
+    margin: 0 auto;
+}
+
+.customers div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+
+.customers h3{
+   font-size: 50px;
+   color: var(--primary-color);
+   margin: 1em;
+}
+
+.customers h5{
+    font-size: 20px;
+    color: var(--primary-color);
+    margin: 2em;
+ }

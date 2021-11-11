@@ -1,0 +1,208 @@
+:root {
+    --primary-color: #2d2d2d;
+    --secondary-color: #1fe070;
+    --tercy-color: #ffffff;
+}
+
+
+.header-contact{
+    background-color: #262626;
+    height: 10em;
+    width: 100%;
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("./img/índice.png");
+    background-repeat: no-repeat;
+    background-position: left 6em top 10px;
+}
+
+.header-contact h3{
+  color: var(--secondary-color);
+  margin-left: -5em;
+  margin-bottom: 0.6em;
+  margin-top: -2em;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.header-contact h4{
+    color: var(--tercy-color);
+    margin-left: -7.8em;
+    font-weight: 100;
+}
+
+.header-contact div input{
+    background-color: #262626;
+    color: #666666;
+    padding: 5px 0;
+    border: none;
+    font-size: 18px;
+}
+
+.header-contact div input:focus{
+    border: none;
+}
+
+.header-contact div:nth-child(1) {
+    position: relative;
+    top: 1em;
+    left: 5em;
+}
+
+.header-contact div:nth-child(2) {
+    position: relative;
+    top: -0.8em;
+    left: 7em;
+}
+
+
+.header-contact div:nth-child(2) button {
+    border: none;
+    padding: 5px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+.header-contact div:nth-child(2) button:hover {
+    background-color: var(--tercy-color);
+}
+
+.header-contact div:nth-child(2) button span{
+    color: var(--primary-color)
+}
+
+
+
+.header-contact div hr{
+    height: 2px;
+    width: 27em;
+    background-color: var(--tercy-color);
+    margin-bottom: 1em;
+}
+
+
+.contact-panel{
+    display: flex;
+    padding-right: 14em;
+    justify-content: space-evenly;
+    background-color: var(--primary-color);
+    height: 120vh;
+    border-bottom-left-radius: 2200px 300px;
+    border-bottom-right-radius: 2200px 300px;
+    padding-top: 6em;
+}
+
+
+.inputGroup{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    padding-top: 2em;
+}
+
+.inputGroup label{
+    position: relative;
+    top: -1em;
+    color: var(--secondary-color)
+}
+
+
+/*separação de email e telefone */
+ .inputGroup div:nth-child(1){ 
+    margin-right: 3em;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-panel > div:nth-child(1){
+    padding: 0 12em 0 8em;
+}
+
+.contact-panel > div:nth-child(2){
+    padding-top: 6em;
+}
+
+.contact-panel input{
+    border: none;
+    background-color: var(--primary-color);
+    color: #4f4f4f;
+    padding-bottom: 0.5em;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.contact-panel textarea{
+    border: none;
+    background-color: var(--primary-color);
+    color: #4f4f4f;
+    padding-bottom: 0.5em;
+    font-size: 16px;
+    font-weight: 900;
+    height: 5em;
+}
+
+
+label{
+    padding: 1em 0;
+    color: var(--secondary-color);
+}
+
+.contact-panel h3{
+    color: var(--tercy-color);
+    font-size: 50px;
+}
+
+.contact-panel h4, h5{
+    color: var(--secondary-color);
+    font-size: 12px;
+}
+
+.contact-panel h4{
+    position: relative;
+    bottom: -2em;
+    font-size: 15px;
+}
+
+
+.links-social a img{
+    max-width: 4em;
+    padding: 1em;
+}
+.links-social > a:nth-child(1) > img:nth-child(1){
+    max-width: 3em;
+}
+
+.contact-panel > div:nth-child(1) p{
+    color: var(--tercy-color);
+    line-height: 30px;
+}
+
+.contact-panel > div:nth-child(1) p strong{
+    font-weight: 900;
+}
+.contact footer {
+    background-color:#262626;
+    height: 10em;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.contact {
+    background-color: #262626;
+}
+
+.contact-links {
+    padding-top: 1em;
+}
+.contact-links a{
+    padding-right: 1em;
+}

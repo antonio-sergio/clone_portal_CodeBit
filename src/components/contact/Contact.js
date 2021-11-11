@@ -4,12 +4,14 @@ import logoFacebook from "./img/logo-facebook.png";
 import logoInstagram from "./img/logo-instagram.png";
 import logoLinkedln from "./img/logo-linkedln.png";
 import happyFaceLogo from "./img/happy-face-3.png";
+import indiceImg from "./img/índice.png";
+import "./Contact.css";
 
 export default class Contact extends Component{
     render(){
         return (
             <div className="contact">
-                <div>
+                <div className="header-contact">
                     <div>
                         <h3>Assine nossa Newsletter</h3>
                         <h4>Receba nossos conteúdos</h4>
@@ -20,7 +22,7 @@ export default class Contact extends Component{
                         <button type="submit" >ASSINAR NEWSLETTER <span>>>></span> </button>
                     </div>
                 </div>
-                <div>
+                <div className="contact-panel">
                     <div>
                         <h3>Contato</h3>
                         <img src={separtorImg} alt="imagem de setas contrapostas servindo de divisão de sessões"></img>
@@ -30,34 +32,34 @@ export default class Contact extends Component{
                         </p>
                         <p>
                             Tel +55 11 3014 2103 <br/>
-                            Tel +55 16 3723 0356
+                            Tel +55 16 3723 0356 <br/>
                             <a href="mailto:contato@codebit.com.br">contato@codebit.com.br</a>
                         </p>
                         <h4>Quer trabalhar conosco?</h4>
                         <p>
-                            <strong>Envie e-mail para:</strong>
+                            <strong>Envie e-mail para:</strong> <br/>
                             <a href="rh@codebit.com.br">rh@codebit.com.br</a>
                         </p>
                         <h5>Mapa do Site _</h5>
-                        <div>
+                        <div className="contact-links">
                             <a href="/">Início</a>
                             <a href="/">Quem Somos</a>
                             <a href="/">Contato</a>
                             <a href="/">Blog</a>
                         </div>
-                        <div>
-                            <img src={logoFacebook} alt="logo do facebook"></img>
-                            <img src={logoLinkedln} alt="logo do linkedln"></img>
-                            <img src={logoInstagram} alt="logo do instagram"></img>
+                        <div className="links-social">
+                            <a href="/"><img src={logoFacebook} alt="logo do facebook"></img></a>
+                            <a href="/"><img src={logoLinkedln} alt="logo do linkedln"></img></a>
+                            <a href="/"><img src={logoInstagram} alt="logo do instagram"></img></a>
                         </div>
                     </div>
                     <div>
-                        <div>
+                        <div className="form-item">
                             <label>Nome</label>
                             <input type="text" placeholder="Seu nome completo"></input>
                             <hr></hr>
                         </div>
-                        <div>
+                        <div className="inputGroup">
                             <div>
                                 <label>Email</label>
                                 <input type="email" placeholder="Seu email"></input>
@@ -69,17 +71,17 @@ export default class Contact extends Component{
                                 <hr></hr>
                             </div>
                         </div>
-                        <div>
+                        <div className="form-item">
                             <label>Empresa</label>
                             <input type="text" placeholder="Nos diga o nome da sua empresa"></input>
                             <hr></hr>
                         </div>
-                        <div>
+                        <div className="form-item">
                             <label>Assunto</label>
                             <input type="text" placeholder="Orçamento, dúvida, financeiro..."></input>
                             <hr></hr>
                         </div>
-                        <div>
+                        <div className="form-item">
                             <label for="">Mensagem</label>
 
                             <textarea id="story" name="story"
@@ -88,15 +90,17 @@ export default class Contact extends Component{
                             </textarea>
                             <hr></hr>
                         </div>
-                        <div>
+                        <div >
                             <form action="?" method="POST">
                                 <div class="g-recaptcha" data-sitekey="your_site_key"></div>
                                 <br/>
                                 <input type="submit" value="Submit"></input>
                             </form>
                         </div>
-                    </div>
+                    </div> 
+                    
                 </div>
+               
                 <footer>
                     <span>Av. Paulista 171, andar 4, Bela Vista - São Paulo - 01311-000</span>
                     <img src={happyFaceLogo} alt="logo da codebit"></img>

@@ -110,21 +110,19 @@ export default class HowWeDo extends Component{
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="NPOs">
                     <div>
                         <img src={cloudNpoImg} alt="desenho do planeta terra sendo abraçado por uma nuvem"></img>
                     </div>
                     <div>
                         <h4>
-                            Especialistas em 
+                            Especialistas em <br/>
                             <strong> organizações sem fins lucrativos</strong> 
                         </h4>
                         <div>
                             <p>
                                 As organizações sem fins lucrativos, Non-profitable organizations (<strong>NPOs</strong>) na língua inglesa, demandam uma atenção
-                                especial de seus fornecedores de tecnologia.
-                            </p>
-                            <p>
+                                especial de seus fornecedores de tecnologia. <br/>                       
                                 <strong>A Codebit</strong> é uma empresa provedora de nuvem pública <strong>AWS (amazon Web Services)</strong> que possui a especialidade 
                                 neste segmento (competência NPO).
                             </p>
@@ -132,26 +130,26 @@ export default class HowWeDo extends Component{
                         <a href="/">Saiba mais</a>
                     </div>
                 </div>
-                <div>
+                <div className="customers">
                     <h3>Quais causas já apoiamos?</h3>
                     <img src={separtorImg} alt="setas opostas apontando para esquerda e direita"></img>
                     <h5>Quem Confia na Codebit?</h5>
                     <div>
-                        <img src={customerItauSocial} alt="logo do itau social"></img>
-                        <img src={customerInspirareImg} alt="logo da inspirare"></img>
                         <img src={customerCenpecImg} alt="logo da cenpec"></img>
+                        <img src={customerItauCulturalImg} alt="logo do itau cultural"></img>
+                        <img src={customerInspirareImg} alt="logo da inspirare"></img>
+                        <img src={customerIttUnibancoImg} alt="logo do instituto unibanco"></img>
                         <img src={customerFLemannImg} alt="logo da fundação Lemann"></img>
                         <img src={customerIttNaturaImg} alt="logo do instituto Natura"></img>
-                        <img src={customerMSFImg} alt="logo do médicos sem fronteira"></img>
-                        <img src={customerItauCulturalImg} alt="logo do itau cultural"></img>
-                        <img src={customerSamsungImg} alt="logo da samsung"></img>
-                        <img src={customerNovaEscolaImg} alt="logo da nova escola"></img>
-                        <img src={customerSincorImg} alt="logo da sincor"></img>
-                        <img src={customerIceImg} alt="logo da ice"></img>
-                        <img src={customerSindusconImg} alt="logo da sinduscor"></img>
-                        <img src={customerIttUnibancoImg} alt="logo do instituto unibanco"></img>
                         <img src={customerFTelefonicaVivoImg} alt="logo da fundação telefônica"></img>
+                        <img src={customerMSFImg} alt="logo do médicos sem fronteira"></img>
+                        <img src={customerItauSocial} alt="logo do itau social"></img>
+                        <img src={customerSincorImg} alt="logo da sincor"></img>
+                        <img src={customerNovaEscolaImg} alt="logo da nova escola"></img>
+                        <img src={customerSindusconImg} alt="logo da sinduscor"></img>
+                        <img src={customerSamsungImg} alt="logo da samsung"></img>
                         <img src={customerIttAirtonSennaImg} alt="logo do instituto Ayrton Senna"></img>
+                        <img src={customerIceImg} alt="logo da ice"></img>
 
                     </div>
                 </div>

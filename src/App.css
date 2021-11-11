@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #2d2d2d;
+  --secondary-color: #1fe070;
+  --tercy-color: #ffffff;
+}
+
 a {
   text-decoration: none;
 }
+
