@@ -1,8 +1,16 @@
-Projeto de um clone de um portal da CodeBit focada em iniciativas de educação, saúde e conhecimento.
+Projeto de um clone do portal da CodeBit focada em iniciativas de educação, saúde e conhecimento.
+Este projeto não tem fins comerciais, todos os direitos reservados à CodeBit.
 
 Projeto feito com React.
+Para executar, instale as dependências e inicie o servidor:
 
+NPM:
+npm i;
+npm start;
 
+Yarn:
+yarn;
+yarn start.
 
 # Getting Started with Create React App
 
