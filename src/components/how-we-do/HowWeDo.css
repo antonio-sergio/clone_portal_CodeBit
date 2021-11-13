@@ -4,95 +4,83 @@
     --tercy-color: #ffffff;
 }
 
-.values {
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+.how-we-do{
+    background-color: var(--tercy-color);
+
 }
 
-.values-1 > div:nth-child(1) > div:nth-child(1) > h3:nth-child(1){
-    margin-left: -10em;
-    margin-bottom: -1em;
+.values h3{
+    padding-left: 10%;
 }
-.values-1{
+
+/* primeiros 2 itens da grade "como fazemos" */
+.values-1 {
+    margin-top: 10%;
     display: flex;
-    max-width: 80vw;
     justify-content: space-between;
 }
 
 .values-1 ul{
-    list-style-type: none;
-    margin-top: 2em;
-    margin-left: -10em;
-}
-.values-1 ul li{
-    font-size: 40px;
-    margin: 8px;
-    font-weight: bold;
+   list-style-type: none;
+   font-size: 40px;
+   margin-top: -20%;
+   font-weight: bold;
+   padding-left: 15%;
 }
 
-.values-1 div{
+.item-values{
     width: 50%;
-}
-
-.values-1 div p{
-    width: 450px;
-    margin-top: 1em;
-}
-
-
-.item-values {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    padding: 0 4%;
 }
 
+.item-values p{
+    color: #9d9e9e;
 
-.values h6{
-    font-size: 20px;
 }
 
-.item-values-img {
-    margin-bottom: 2em;
-   
+.item-values h6{
+    font-size: 25px;
 }
 
-.values-grid {
-    max-width: 70vw;
+/* quatro ultimos itens da grade "como fazemos" */
+
+.values-grid{
+    padding-top: 5%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
 }
-
-.values-grid div{
-    padding-top: 2em;
-    width: 35em;
-    height: 20em;
+.grid-item{
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    box-sizing: border-box;
+    max-width: 50%;
+    padding: 0 4%;
+
 }
 
-.values-grid div img{
-    width: 50%;
-    margin: 5em;
+.grid-item p{
+    color: #9d9e9e;
 }
 
-div.values-grid > div > div{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: -6em;
-}
-
-.grid-item-text{
-    margin-top: 5em;
+.grid-item h6{
+    font-size: 25px;
 }
 
 
+/* item da nuvem grande */
+.NPOs{
+    width: 100%;
+    margin: 0;
+    padding: 14em 4em 4em 4em;
+}
+
+.NPOs img{
+    width: 100%;
+}
+
+.NPOs div p{
+    padding-right: 6em;
+    font-size: 14px;
+}
+
+@media (max-width: 1300px){
+  
+}

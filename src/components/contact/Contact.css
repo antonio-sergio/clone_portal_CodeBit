@@ -45,6 +45,7 @@
     border: none;
 }
 
+/* divisão em dois blocos, esquerdo filho 1 com informações de contato, e direito filho 2 com formulário */
 .header-contact div:nth-child(1) {
     position: relative;
     top: 1em;
@@ -56,7 +57,6 @@
     top: -0.8em;
     left: 7em;
 }
-
 
 .header-contact div:nth-child(2) button {
     border: none;
@@ -73,52 +73,29 @@
     color: var(--primary-color)
 }
 
-
-
-.header-contact div hr{
-    height: 2px;
-    width: 27em;
-    background-color: var(--tercy-color);
-    margin-bottom: 1em;
+.contact {
+    background-color: #262626;
 }
 
+.contact-links {
+    padding-top: 1em;
+}
+.contact-links a{
+    padding-right: 1em;
+}
 
 .contact-panel{
     display: flex;
     padding-right: 14em;
     justify-content: space-evenly;
     background-color: var(--primary-color);
-    height: 120vh;
+    height: 50em;
     border-bottom-left-radius: 2200px 300px;
     border-bottom-right-radius: 2200px 300px;
     padding-top: 6em;
 }
 
-
-.inputGroup{
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
-    padding-top: 2em;
-}
-
-.inputGroup label{
-    position: relative;
-    top: -1em;
-    color: var(--secondary-color)
-}
-
-
-/*separação de email e telefone */
- .inputGroup div:nth-child(1){ 
-    margin-right: 3em;
-}
-
-.form-item{
-    display: flex;
-    flex-direction: column;
-}
-
+/* ultimo dois grupo, filho 1 na esquerda, informações de contato e filho 2 à direita com o formulario */
 .contact-panel > div:nth-child(1){
     padding: 0 12em 0 8em;
 }
@@ -146,12 +123,6 @@
     height: 5em;
 }
 
-
-label{
-    padding: 1em 0;
-    color: var(--secondary-color);
-}
-
 .contact-panel h3{
     color: var(--tercy-color);
     font-size: 50px;
@@ -168,6 +139,43 @@ label{
     font-size: 15px;
 }
 
+.contact-panel > div:nth-child(1) p{
+    color: var(--tercy-color);
+    line-height: 30px;
+}
+
+.contact-panel > div:nth-child(1) p strong{
+    font-weight: 900;
+}
+
+/* input de email e telefone que ficam na mesma linha */
+.inputGroup{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    padding-top: 2em;
+}
+
+.inputGroup label{
+    position: relative;
+    top: -1em;
+    color: var(--secondary-color)
+}
+
+/*separação de email e telefone */
+ .inputGroup div:nth-child(1){ 
+    padding-right: 3%;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    padding: 1em 0;
+    color: var(--secondary-color);
+}
 
 .links-social a img{
     max-width: 4em;
@@ -177,32 +185,61 @@ label{
     max-width: 3em;
 }
 
-.contact-panel > div:nth-child(1) p{
-    color: var(--tercy-color);
-    line-height: 30px;
-}
-
-.contact-panel > div:nth-child(1) p strong{
-    font-weight: 900;
-}
 .contact footer {
     background-color:#262626;
-    height: 10em;
+    height: 5em;
     position: relative;
-    bottom: 0;
+    top: 5%;
     display: flex;
     justify-content: space-evenly;
+    padding: 0 5%;
+}
+
+.contact span{
+    height: 5em;
+    min-width: 33%;
+    font-size: 12px;
+    padding-top: 2%;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-
-.contact {
-    background-color: #262626;
+/* botão assinar Newsletter */
+.header-contact > div:nth-child(2) > button:nth-child(3){
+    max-height: 2em;
+    width: 18em;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    margin-top: 2em;
 }
 
-.contact-links {
-    padding-top: 1em;
+.header-contact > div:nth-child(2) > button:nth-child(3) span{
+   display: flex;
+   align-items: center;
+   max-height: 3em;
+   padding: 0.5em;
 }
-.contact-links a{
-    padding-right: 1em;
+
+
+@media (max-width: 1200px) {
+    .inputGroup{
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .inputGroup div{
+        display: flex;
+        flex-direction:column;
+    }
+    .inputGroup label{
+        top: 0em;
+    }
+
+    .contact footer{
+        margin-top: 10%;
+    }
 }

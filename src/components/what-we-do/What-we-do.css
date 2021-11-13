@@ -9,6 +9,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--tercy-color);
+    padding-top: 4em;
 }
 
 span {
@@ -23,19 +25,20 @@ span {
 .whatWeDo h3 {
     text-align: center;
     padding-top: 2em;
+    font-size: 15px;
+    font-weight: 200;
 }
 
 .solutions {
     display: flex;
-    max-width: 60vw;
     margin: 3em auto;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 10%;
 }
 
 .solutions div{
     width: 50%;
-    padding-right: 2em;
 }
 
 
@@ -50,6 +53,7 @@ span {
     margin: 0;
 }
 
+/* barrinha lateral perto da fita métrica */
 .solutions > div:nth-child(2) > p:nth-child(3){
     border-left: solid 3px var(--secondary-color);
     padding-left: 1em;
@@ -57,23 +61,26 @@ span {
 
 .services{
     display: flex;
-    max-width: 90vw;
     padding-bottom: 4em;
+    width: 90vw;
+    justify-content: space-between;
 }
 
 .services div{
-    margin: 3em;
     text-align: center;
     list-style-type: none;
-    min-width: 15em;
+    padding: 2em;
 }
 
 .services div ul{
     list-style-type: none;
+    
 }
 
 .services div ul li{
     font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
 }
 
 .services div h6{
@@ -83,3 +90,10 @@ span {
 }
 
 
+@media (max-width: 1300px){
+    .whatWeDo{
+        margin-top: -20em;
+    }
+
+    
+}

@@ -13,9 +13,8 @@ p {
 
 .who-are-we {
     width: 55vw;
-    height: 40vh;
     position: relative;
-    top: -25em;
+    top: 16em;
     left: 8em;
 }
 
@@ -101,4 +100,16 @@ p {
     font-size: 20px;
     color: var(--primary-color);
     margin: 2em;
+ }
+
+
+ /* media queries */
+ @media (max-width: 1200px) {
+    .who-are-we {
+        width: 80vw;
+        max-height: 10vh;
+        top: 15em;
+        left: 8em;
+    }
+    
  }

@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Menu from './components/menu/Menu';
 import Banner from './components/banner/Banner';
-import AboutUs from './components/about-us/About-Us';
+import WhoaAreWe from './components/who-are-we/Who-are-we';
 import WhatWeDo from './components/what-we-do/What-we-do';
 import HowWeDo from './components/how-we-do/How-we-do';
 import Contact from './components/contact/Contact';
@@ -16,7 +16,7 @@ function App() {
       <Menu />
       <PauseOnHover />
       <Banner />
-      <AboutUs />
+      <WhoaAreWe />
       <WhatWeDo />
       <HowWeDo />
       <Contact />

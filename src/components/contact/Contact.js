@@ -103,7 +103,7 @@ export default class Contact extends Component{
                
                 <footer>
                     <span>Av. Paulista 171, andar 4, Bela Vista - São Paulo - 01311-000</span>
-                    <img src={happyFaceLogo} alt="logo da codebit"></img>
+                    <span><img className="logo-footer" src={happyFaceLogo} alt="logo da codebit"></img></span>
                     <span>Todos os direitos reservados - 2021</span>
                 </footer>
             </div>

@@ -31,10 +31,10 @@ export default class HowWeDo extends Component{
             <div className="how-we-do">
                 <div className="values">
                     
+                    <h3><span>///</span>COMO FAZEMOS</h3>
                     <div className="values-1">
                         <div>
                             <div>
-                                <h3><span>///</span>COMO FAZEMOS</h3>
                             </div>
                             <ul>
                                 <li>Qualidade</li>

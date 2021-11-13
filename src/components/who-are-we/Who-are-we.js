@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import "./AboutUs.css"
+import "./Who-are-we.css"
 export default class AboutUs extends Component{
     render(){
         return (

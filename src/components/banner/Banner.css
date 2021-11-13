@@ -4,37 +4,65 @@
     --tercy-color: #ffffff;
 }
 
-.banner {
+body {
     width: 100%;
     min-height: 150vh;
     background-color: var(--primary-color);
-    margin: -15em auto;
-    background-image: url("https://codebit.com.br/assets/images/happy-face-1.png");
+    background-image: url("./img/happy-face-1.png");
     background-size: 70%;
     background-repeat: no-repeat;
     background-position-x: right;
+    background-position-y: top;
 }
 
-.banner h1 {
-    position: relative;
+.banner{
+    height: 10em;
+    margin-top: 10%;
+}
+
+.banner h1{
     color: var(--secondary-color);
-    top: 5em;
-    
-}
-
-.banner div h1 {
+    background-color: var(--primary-color);
+    width: 74vw;
+    height: 2em;
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 900;
+    padding-left: 10%;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    position: sticky;
 }
 
 .banner h2 {
-    position: relative;
+    padding-top: 2%;
+    padding-left: 10%;
     color: var(--tercy-color);
-    top: 11em;
-}
-
-.banner div {
-    margin-left: 9em;
 }
 
 
+
+
+/* media queries */
+@media (max-width: 1300px) {
+    
+    .banner h1{
+        font-size: 30px;
+    }
+
+    .banner h2{
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    .banner h1{
+        font-size:25px;
+        max-width: 60vw;
+
+    }
+    .banner h2{
+        font-size: 14px;
+    }
+}

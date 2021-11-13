@@ -1,14 +1,36 @@
+
 .caurosel  {
-    position: relative;
-    bottom:  -300px;
-    right: -1000px;
+    position: absolute;
+    top:  20%;
+    right: 4%;
     height: 300px;
-    width: 300px;
-    
+    width: 420px;
 }
 
 .caurosel img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+}
+
+.caurosel div p{
+    color: var(--tercy-color);
+    font-size: 12px;
+}
+
+/* media queries */
+
+@media (max-width: 1350px) {
+    .caurosel  {
+        top:  15%;
+        right: 5%;
+    }
+}
+
+@media (max-width: 900px) {
+    .caurosel  {
+        top:  10%;
+        right: 4%;
+        height: 230px;
+    }
 
 }

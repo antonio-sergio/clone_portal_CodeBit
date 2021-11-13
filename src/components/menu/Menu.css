@@ -24,7 +24,8 @@ a {
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-evenly;
-    position: fixed;
+    position: sticky;
+    z-index: 1;
     top: 0;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     
@@ -67,3 +68,9 @@ a {
 .certifieds img{
     margin: 0.5em 1em;
 }
+
+/* media queries */
+/* @media (min-width: 1024px) and (max-width: 1399px) {
+   
+    
+} */
