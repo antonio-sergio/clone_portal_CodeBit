@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
 import "./Who-are-we.css"
+
+
 export default class AboutUs extends Component{
     render(){
         return (
-            <div>
-                  <div className="who-are-we">
+            <div className="who-are-we">
+                    <div id="who-are-we" className="separator"></div>
+
                     <h3>
                         <span>///</span>
                         QUEM SOMOS
@@ -22,8 +25,7 @@ export default class AboutUs extends Component{
                         capacitações, disseminação do conhecimento, inscrição em programas sociais, prêmios culturais e 
                         demais iniciativas que ajudam a transformar o mundo em que vivem.
                     </p>
-
-                </div>
+                    <div className="separator-two"></div>
             </div>
         )
     }

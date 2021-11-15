@@ -5,17 +5,20 @@
     --tercy-color: #ffffff;
 }
 
-p {
-    position: relative;
-    color: var(--tercy-color)
+
+.who-are-we .separator{
+    min-height: 10em;
+    color: red;
+    min-width: 99%;
+    margin-top: -15%;
 }
 
-
 .who-are-we {
-    width: 55vw;
+    width: 100%;
     position: relative;
     top: 16em;
-    left: 8em;
+    min-height: 100vh;
+    padding-bottom: 10%;
 }
 
 
@@ -24,92 +27,80 @@ p {
 }
 
 .who-are-we h3{
-    padding: 0.5em 10em;
     color: var(--tercy-color);
     font-size: 12px;
+    padding-left: 15%;
+    padding-top: 5%;
 }
 
 .who-are-we p{
+    width: 100%;
     line-height: 30px;
-    margin: 2rem 0.5rem;
-    font-size: 20px;
-    color: var(--tercy-color)
+    font-size: 19px;
+    color: var(--tercy-color);
+    text-align: start;
+    padding-left: 10%;
+    padding-right: 30%;
 }
 
-.NPOs {
-    display: flex;
-    margin: 7em;
-}
-
-.NPOs div{
-    padding: 1em;
-}
-
-.NPOs div h4 {
-    font-weight: 100;
-    font-size: 30px;
-    font-style: italic;
-    margin-left: 1em;
-}
-
-.NPOs div h4 strong{
-    font-weight: bold;
-    font-size: 30px;
-    font-style: normal;
-}
-
-.NPOs div p{
-    border-left: 10px solid var(--secondary-color);
-    padding-left: 0.5em;
-    color: #7d7d7d;
+/* .who-are-we p{
     line-height: 30px;
-    width: 50em;
-}
-
-.NPOs div a{
-    padding-left: 2em;
-    color: var(--secondary-color);
-    font-size: 18px;
-}
-
-/* customers */
-.customers {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    max-width: 82vw;
-    margin: 0 auto;
-}
-
-.customers div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap:wrap;
-}
-
-
-.customers h3{
-   font-size: 50px;
-   color: var(--primary-color);
-   margin: 1em;
-}
-
-.customers h5{
     font-size: 20px;
-    color: var(--primary-color);
-    margin: 2em;
- }
+    color: var(--tercy-color);
+    padding-left: 15%;
+} */
 
+.separator-two{
+    height: 2em;
+    padding: 10% 0;
+}
+/* 
 
  /* media queries */
  @media (max-width: 1200px) {
     .who-are-we {
-        width: 80vw;
-        max-height: 10vh;
-        top: 15em;
-        left: 8em;
+        padding: 0;
+        min-height: 70em;
     }
-    
+
+    .who-are-we p{
+        text-align: center;
+        padding: 0 15%;
+    }
+
+    .who-are-we h3{
+        padding-left: 25%;
+    }
  }
+
+ @media (max-width: 839px) {
+     .who-are-we {
+        padding: 0;
+        text-align: center;
+        position: static;
+        min-height: 50em;
+     }
+
+     .who-are-we h3{
+        padding: 0;
+        text-align: center;
+    }
+
+     
+ }
+
+
+ @media (max-width: 530px) {
+     .who-are-we p{
+        font-size: 15px;
+     }
+ }
+
+ @media (max-width: 400px) {
+    .who-are-we p{
+       font-size: 12px;
+    }
+    .who-are-we {
+       margin: 15% auto;
+    }
+}

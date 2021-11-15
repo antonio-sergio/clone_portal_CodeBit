@@ -4,185 +4,163 @@
     --tercy-color: #ffffff;
 }
 
-
-.header-contact{
-    background-color: #262626;
-    height: 10em;
+hr {
     width: 100%;
-    margin-top: 5em;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-image: url("./img/índice.png");
-    background-repeat: no-repeat;
-    background-position: left 6em top 10px;
+    height: 2px;
+    background-color: var(--tercy-color);
 }
 
 .header-contact h3{
   color: var(--secondary-color);
-  margin-left: -5em;
-  margin-bottom: 0.6em;
-  margin-top: -2em;
   font-size: 25px;
   font-weight: 800;
 }
 
 .header-contact h4{
     color: var(--tercy-color);
-    margin-left: -7.8em;
     font-weight: 100;
 }
 
-.header-contact div input{
+.header-contact{
     background-color: #262626;
-    color: #666666;
-    padding: 5px 0;
+    height: 10em;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./img/índice.png");
+    background-repeat: no-repeat;
+    background-position: left 6em top 10px;
+}
+
+.header-contact div{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.header-contact div input{
     border: none;
+    background-color: #262626;
+    color: white;
     font-size: 18px;
+    font-weight: 300;
 }
 
 .header-contact div input:focus{
     border: none;
 }
 
-/* divisão em dois blocos, esquerdo filho 1 com informações de contato, e direito filho 2 com formulário */
-.header-contact div:nth-child(1) {
-    position: relative;
-    top: 1em;
-    left: 5em;
+.header-contact hr {
+    width: 33vw;
 }
 
-.header-contact div:nth-child(2) {
-    position: relative;
-    top: -0.8em;
-    left: 7em;
-}
-
-.header-contact div:nth-child(2) button {
+.header-contact button{
     border: none;
-    padding: 5px;
-    color: var(--primary-color);
+    padding: 4px;
     background-color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 16px;
 }
 
-.header-contact div:nth-child(2) button:hover {
+.header-contact button span{
+    color: black;
+}
+
+.header-contact button:hover{
     background-color: var(--tercy-color);
-}
-
-.header-contact div:nth-child(2) button span{
-    color: var(--primary-color)
-}
-
-.contact {
-    background-color: #262626;
-}
-
-.contact-links {
-    padding-top: 1em;
-}
-.contact-links a{
-    padding-right: 1em;
 }
 
 .contact-panel{
     display: flex;
-    padding-right: 14em;
-    justify-content: space-evenly;
-    background-color: var(--primary-color);
-    height: 50em;
-    border-bottom-left-radius: 2200px 300px;
-    border-bottom-right-radius: 2200px 300px;
-    padding-top: 6em;
+    width: 100%;
 }
 
-/* ultimo dois grupo, filho 1 na esquerda, informações de contato e filho 2 à direita com o formulario */
-.contact-panel > div:nth-child(1){
-    padding: 0 12em 0 8em;
-}
-
-.contact-panel > div:nth-child(2){
-    padding-top: 6em;
-}
-
-.contact-panel input{
-    border: none;
-    background-color: var(--primary-color);
-    color: #4f4f4f;
-    padding-bottom: 0.5em;
-    font-size: 16px;
-    font-weight: 900;
-}
-
-.contact-panel textarea{
-    border: none;
-    background-color: var(--primary-color);
-    color: #4f4f4f;
-    padding-bottom: 0.5em;
-    font-size: 16px;
-    font-weight: 900;
-    height: 5em;
-}
-
-.contact-panel h3{
-    color: var(--tercy-color);
-    font-size: 50px;
-}
-
-.contact-panel h4, h5{
-    color: var(--secondary-color);
-    font-size: 12px;
-}
-
-.contact-panel h4{
-    position: relative;
-    bottom: -2em;
-    font-size: 15px;
-}
-
-.contact-panel > div:nth-child(1) p{
-    color: var(--tercy-color);
-    line-height: 30px;
-}
-
-.contact-panel > div:nth-child(1) p strong{
-    font-weight: 900;
-}
-
-/* input de email e telefone que ficam na mesma linha */
-.inputGroup{
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-evenly;
-    padding-top: 2em;
-}
-
-.inputGroup label{
-    position: relative;
-    top: -1em;
-    color: var(--secondary-color)
-}
-
-/*separação de email e telefone */
- .inputGroup div:nth-child(1){ 
-    padding-right: 3%;
-}
-
-.form-item{
+.contact-left{
+    max-width: 50%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    padding: 10%;
 }
 
-label{
-    padding: 1em 0;
+.contact-left p{
+    color: white;
+    line-height: 25px;
+    font-weight: 100;
+}
+
+.contact-left h3{
+    font-size: 50px;
+    color: white;
+}
+
+.contact-left h4, h5{
     color: var(--secondary-color);
+    padding-bottom: 4%;
+}
+.contact-left img{
+    max-width: 30%;
+}
+.contact-right{
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    padding-top: 13%;
+}
+
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.contact-right form label{
+    color: var(--secondary-color);
+    padding-bottom: 10%;
+    padding-top: 6%;
+}
+
+.contact-right form input, textarea{
+    width: 100%;
+    border: none;
+    background-color: var(--primary-color);
+    font-size: 16px;
+    color: white;
+}
+
+
+.contact-right form div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.contact-right form div div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.links-social{
+    width: 80%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.links-social a{
+    padding: 0 5%;
 }
 
 .links-social a img{
-    max-width: 4em;
-    padding: 1em;
-}
-.links-social > a:nth-child(1) > img:nth-child(1){
-    max-width: 3em;
+    min-width: 50%;
 }
 
 .contact footer {
@@ -193,11 +171,11 @@ label{
     display: flex;
     justify-content: space-evenly;
     padding: 0 5%;
-}
+} 
 
 .contact span{
     height: 5em;
-    min-width: 33%;
+    min-width: 30%;
     font-size: 12px;
     padding-top: 2%;
     font-weight: 700;
@@ -225,8 +203,17 @@ label{
 }
 
 
+
+/* media queries */
 @media (max-width: 1200px) {
-    .inputGroup{
+    .contact-right form div {
+        flex-direction: column;
+    }
+
+
+
+
+    /* .inputGroup{
         flex-direction: column;
         justify-content: space-evenly;
         flex-wrap: wrap;
@@ -241,5 +228,11 @@ label{
 
     .contact footer{
         margin-top: 10%;
-    }
+    } */
+}
+
+@media (max-width: 839px) {
+ 
+
+    
 }

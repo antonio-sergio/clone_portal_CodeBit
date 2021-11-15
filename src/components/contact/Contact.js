@@ -4,13 +4,12 @@ import logoFacebook from "./img/logo-facebook.png";
 import logoInstagram from "./img/logo-instagram.png";
 import logoLinkedln from "./img/logo-linkedln.png";
 import happyFaceLogo from "./img/happy-face-3.png";
-import indiceImg from "./img/índice.png";
 import "./Contact.css";
 
 export default class Contact extends Component{
     render(){
         return (
-            <div className="contact">
+            <div id="contact" className="contact">
                 <div className="header-contact">
                     <div>
                         <h3>Assine nossa Newsletter</h3>
@@ -23,7 +22,7 @@ export default class Contact extends Component{
                     </div>
                 </div>
                 <div className="contact-panel">
-                    <div>
+                    <div className="contact-left">
                         <h3>Contato</h3>
                         <img src={separtorImg} alt="imagem de setas contrapostas servindo de divisão de sessões"></img>
                         <p>
@@ -53,50 +52,42 @@ export default class Contact extends Component{
                             <a href="/"><img src={logoInstagram} alt="logo do instagram"></img></a>
                         </div>
                     </div>
-                    <div>
-                        <div className="form-item">
+                    <div className="contact-right">
+                        <form >
                             <label>Nome</label>
-                            <input type="text" placeholder="Seu nome completo"></input>
+                            <input type="text"></input>
                             <hr></hr>
-                        </div>
-                        <div className="inputGroup">
                             <div>
-                                <label>Email</label>
-                                <input type="email" placeholder="Seu email"></input>
-                                <hr></hr>
+                                <div>
+                                    <label>Email</label>
+                                    <input type="email" placeholder="Seu email"></input>
+                                    <hr></hr>
+                                </div>
+                                <div>
+                                    <label>Telefone/Celular</label>
+                                    <input type="tel" placeholder="(xx) xxxx xxxx"></input>
+                                    <hr></hr>
+                                </div>
                             </div>
-                            <div>
-                                <label>Telefone/Celular</label>
-                                <input type="tel" placeholder="(xx) xxxx xxxx"></input>
-                                <hr></hr>
-                            </div>
-                        </div>
-                        <div className="form-item">
                             <label>Empresa</label>
-                            <input type="text" placeholder="Nos diga o nome da sua empresa"></input>
+                            <input type="text"></input>
                             <hr></hr>
-                        </div>
-                        <div className="form-item">
                             <label>Assunto</label>
-                            <input type="text" placeholder="Orçamento, dúvida, financeiro..."></input>
+                            <input type="text"></input>
                             <hr></hr>
-                        </div>
-                        <div className="form-item">
                             <label for="">Mensagem</label>
-
-                            <textarea id="story" name="story"
-                                    rows="5" cols="33" placeholder="Escreva sua mensagem aqui...">
-                            
+                            <textarea id="" name=""
+                                    rows="3" cols="33">
                             </textarea>
                             <hr></hr>
-                        </div>
-                        <div >
+                        </form>
+                        {/* <div>
                             <form action="?" method="POST">
                                 <div class="g-recaptcha" data-sitekey="your_site_key"></div>
                                 <br/>
                                 <input type="submit" value="Submit"></input>
                             </form>
-                        </div>
+                        </div> */}
                     </div> 
                     
                 </div>

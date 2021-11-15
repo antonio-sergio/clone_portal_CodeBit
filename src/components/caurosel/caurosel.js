@@ -26,7 +26,8 @@ export default class PauseOnHover extends Component {
         pauseOnHover: true
       };
       return (
-        <div className="caurosel">
+        <div className="caurosel-father">
+          <div className="caurosel">
           <Slider {...settings}>
             <div>
                 <img src={bCertified} alt=""></img>
@@ -70,6 +71,7 @@ export default class PauseOnHover extends Component {
                 <p>Prêmio Inova Escola<span>-Fundação Telefônica Vivo</span></p>
             </div>
           </Slider>
+        </div>
         </div>
       );
     }

@@ -34,11 +34,17 @@ span {
     margin: 3em auto;
     align-items: flex-start;
     justify-content: space-evenly;
-    padding: 10%;
+    padding: 0 5% 5% 5%;
+    width: 100;
+}
+
+.solutions img{
+    max-width: 100%;
 }
 
 .solutions div{
     width: 50%;
+    padding: 5%;
 }
 
 
@@ -90,10 +96,27 @@ span {
 }
 
 
-@media (max-width: 1300px){
-    .whatWeDo{
-        margin-top: -20em;
+@media (max-width: 839px) {
+    .solutions{
+        flex-direction: column;
+        align-items: center;
     }
 
-    
+    .solutions div{
+        margin: 0;
+        padding: 0;
+    }
+
+    .whatWeDo h4{
+        text-align: center;
+    }
+
+    .whatWeDo div{
+        margin: 0;
+        padding:3%;
+    }
+
+    .services{
+        flex-direction: column;
+    }
 }

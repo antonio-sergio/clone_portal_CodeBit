@@ -3,6 +3,7 @@ import headImg from './img/head-menu-bar-codebit-large.png';
 import certifiedImg from './img/b-corporation.png';
 import awsImg from './img/aws-consulting-partner.png';
 import './Menu.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 export default class Menu extends Component{
@@ -15,8 +16,8 @@ export default class Menu extends Component{
                 <div className="nav-links">
                     <ul>
                         <li className="active"><a href="/">Início</a></li>
-                        <li><a href="/">Quem Somos</a></li>
-                        <li><a href="/">Contato</a></li>
+                        <li><AnchorLink href='#who-are-we'>Quem Somos</AnchorLink></li>
+                        <li><AnchorLink href='#contact'>Contato</AnchorLink></li>
                         <li><a href="/">Blog</a></li>
                     </ul>
                 </div>
