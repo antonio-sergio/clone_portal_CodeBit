@@ -132,7 +132,11 @@ export default class HowWeDo extends Component{
                 </div>
                 <div className="customers">
                     <h3>Quais causas já apoiamos?</h3>
+<<<<<<< HEAD
                     <img className="separator" src={separtorImg} alt="setas opostas apontando para esquerda e direita"></img>
+=======
+                    <img src={separtorImg} alt="setas opostas apontando para esquerda e direita"></img>
+>>>>>>> 5fc03ba0879b13942a019f78b1031b81349c8ae1
                     <h5>Quem Confia na Codebit?</h5>
                     <div>
                         <img src={customerCenpecImg} alt="logo da cenpec"></img>

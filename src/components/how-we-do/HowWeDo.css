@@ -25,9 +25,12 @@
   flex-wrap:wrap;
 }
 
+<<<<<<< HEAD
 .customers .separator{
   padding: 5% 0;
 }
+=======
+>>>>>>> 5fc03ba0879b13942a019f78b1031b81349c8ae1
 
 .customers h3{
  font-size: 50px;
