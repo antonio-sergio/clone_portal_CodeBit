@@ -1,224 +1,221 @@
 :root {
-    --primary-color: #2d2d2d;
-    --secondary-color: #1fe070;
-    --tercy-color: #ffffff;
+  --primary-color: #2d2d2d;
+  --secondary-color: #1fe070;
+  --tercy-color: #ffffff;
 }
 
 .how-we-do{
-  background-color: var(--tercy-color);
+background-color: var(--tercy-color);
 }
 
 /* customers */
 .customers {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  max-width: 82vw;
-  margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+max-width: 82vw;
+margin: 0 auto;
 }
 
 .customers div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap:wrap;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap:wrap;
 }
 
-<<<<<<< HEAD
 .customers .separator{
-  padding: 5% 0;
+padding: 5% 0;
 }
-=======
->>>>>>> 5fc03ba0879b13942a019f78b1031b81349c8ae1
 
 .customers h3{
- font-size: 50px;
- color: var(--primary-color);
+font-size: 50px;
+color: var(--primary-color);
 }
 
 .customers h5{
-  font-size: 20px;
-  color: var(--primary-color);
+font-size: 20px;
+color: var(--primary-color);
 } 
 
 
 
 
 .values h3{
-  padding-left: 7%;
-  margin-bottom: -5%;
+padding-left: 7%;
+margin-bottom: -5%;
 }
 
 /* primeiros 2 itens da grade "como fazemos" */
 .values-1 {
-  margin: 10% 5% 0 5%;
-  display: flex;
-  justify-content: space-between;
+margin: 10% 5% 0 5%;
+display: flex;
+justify-content: space-between;
 
 }
 
 .values-1 ul{
-   list-style-type: none;
-   font-size: 40px;
-   margin-top: -20%;
-   font-weight: bold;
-   padding-left: 15%;
+ list-style-type: none;
+ font-size: 40px;
+ margin-top: -20%;
+ font-weight: bold;
+ padding-left: 15%;
 }
 
 .item-values{
-    width: 50%;
-    display: flex;
-    padding: 0 4%;
+  width: 50%;
+  display: flex;
+  padding: 0 4%;
 }
 
 .item-values p{
-    color: #9d9e9e;
+  color: #9d9e9e;
 
 }
 
 .item-values h6{
-    font-size: 25px;
+  font-size: 25px;
 }
 
 /* quatro ultimos itens da grade "como fazemos" */
 
 .values-grid{
-    padding-top: 5%;
-    display: flex;
+  padding-top: 5%;
+  display: flex;
 }
 .grid-item{
-    display: flex;
-    max-width: 50%;
-    padding: 0 4%;
+  display: flex;
+  max-width: 50%;
+  padding: 0 4%;
 
 }
 
 .grid-item p{
-    color: #9d9e9e;
+  color: #9d9e9e;
 }
 
 .grid-item h6{
-    font-size: 25px;
+  font-size: 25px;
 }
 
 
 /* item da nuvem grande */
 .NPOs{
-  width: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 7em;
+width: 100%;
+margin: 0;
+display: flex;
+justify-content: space-evenly;
+padding: 7em;
 }
 
 .NPOs div{
-  min-width: 50%;
-  padding: 1em;
+min-width: 50%;
+padding: 1em;
 
 }
 
 .NPOs img{
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .NPOs div p{
-  border-left: 10px solid var(--secondary-color);
-  padding-left: 0.5em;
-  color: #7d7d7d;
-  line-height: 30px;
-  max-width: 100%;
-  font-size: 14px;
+border-left: 10px solid var(--secondary-color);
+padding-left: 0.5em;
+color: #7d7d7d;
+line-height: 30px;
+max-width: 100%;
+font-size: 14px;
 
 }
 
 .NPOs div h4 {
-  font-weight: 100;
-  font-size: 30px;
-  font-style: italic;
-  padding-left: 1em;
+font-weight: 100;
+font-size: 30px;
+font-style: italic;
+padding-left: 1em;
 }
 
 .NPOs div h4 strong{
-  font-weight: bold;
-  font-size: 30px;
-  font-style: normal;
+font-weight: bold;
+font-size: 30px;
+font-style: normal;
 }
 
 .NPOs div a{
-  padding-left: 2em;
-  color: var(--secondary-color);
-  font-size: 18px;
+padding-left: 2em;
+color: var(--secondary-color);
+font-size: 18px;
 }
 
 @media (max-width: 1200px) {
-   .values h3{
-     margin: 0;
-   }
+ .values h3{
+   margin: 0;
+ }
 }
 
 @media (max-width: 839px){
-  .values h3{
-    text-align: center;
-  }
+.values h3{
+  text-align: center;
+}
 
-  .values-1{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
+.values-1{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
-  .item-values{
-    padding-top:5%;
-    flex-direction: column;
-    align-items: center;
-  }
+.item-values{
+  padding-top:5%;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .values-grid{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.values-grid{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .grid-item{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+.grid-item{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-  .NPOs{
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    flex-direction: column;
-  }
-  
-  .NPOs > div:nth-child(2){
-    max-width: 100%;
-  }
-  .NPOs div{
-    margin: 0 auto; 
-  }
+.NPOs{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+}
 
-  .NPOs  div  a {
-    text-align: center;
-    margin: 0 auto;
-    padding: 0;
-  }
+.NPOs > div:nth-child(2){
+  max-width: 100%;
+}
+.NPOs div{
+  margin: 0 auto; 
+}
+
+.NPOs  div  a {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
 
 
-  .customers div{
-    text-align: center;
-    flex-direction: column;
-  }
+.customers div{
+  text-align: center;
+  flex-direction: column;
+}
 
-  .customers h3{
-    font-size: 20px;
-  }
+.customers h3{
+  font-size: 20px;
+}
 
-  .customers h5{
-    font-size: 17px;
- }
+.customers h5{
+  font-size: 17px;
+}
 }
