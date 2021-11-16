@@ -11,6 +11,11 @@ npm start;
 Yarn:
 yarn;
 yarn start.
+![![codebit2](https://user-images.githubusercontent.com/74938988/142044107-1c9a30a0-b377-43fd-a9da-0efd7721bbea.png)
+![codebit3](https://user-images.githubusercontent.com/74938988/142044109-729a672e-059a-4134-89c7-892f9389daf0.png)
+Uploading codebit1.png…]()
+
+
 
 # Getting Started with Create React App
 
