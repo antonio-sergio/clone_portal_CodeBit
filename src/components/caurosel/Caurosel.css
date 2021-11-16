@@ -1,0 +1,53 @@
+
+.caurosel  {
+    position: absolute;
+    top:  20%;
+    right: 4%;
+    height: 300px;
+    width: 420px;
+}
+
+.caurosel img {
+    width: 80%;
+    height: 80%;
+}
+
+.caurosel div p{
+    color: var(--tercy-color);
+    font-size: 12px;
+}
+
+/* media queries */
+
+@media (max-width: 1350px) {
+    .caurosel  {
+        top:  15%;
+        right: 5%;
+    }
+}
+
+
+@media (max-width: 839px) {
+    .caurosel{
+        max-width: 300px;
+        position: relative;
+        margin: 20% 0 10% 10%;
+        padding: 0;
+    }
+
+    .caurosel-father{
+        position: static;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+}
+
+@media (max-width: 500px) {
+    .caurosel{
+        margin-top: 45%;
+    }
+}

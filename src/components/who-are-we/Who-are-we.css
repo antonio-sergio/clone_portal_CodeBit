@@ -1,0 +1,106 @@
+
+:root {
+    --primary-color: #2d2d2d;
+    --secondary-color: #1fe070;
+    --tercy-color: #ffffff;
+}
+
+
+.who-are-we .separator{
+    min-height: 10em;
+    color: red;
+    min-width: 99%;
+    margin-top: -15%;
+}
+
+.who-are-we {
+    width: 100%;
+    position: relative;
+    top: 16em;
+    min-height: 100vh;
+    padding-bottom: 10%;
+}
+
+
+.who-are-we span{
+    color: var(--secondary-color)
+}
+
+.who-are-we h3{
+    color: var(--tercy-color);
+    font-size: 12px;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+.who-are-we p{
+    width: 100%;
+    line-height: 30px;
+    font-size: 19px;
+    color: var(--tercy-color);
+    text-align: start;
+    padding-left: 10%;
+    padding-right: 30%;
+}
+
+/* .who-are-we p{
+    line-height: 30px;
+    font-size: 20px;
+    color: var(--tercy-color);
+    padding-left: 15%;
+} */
+
+.separator-two{
+    height: 2em;
+    padding: 10% 0;
+}
+/* 
+
+ /* media queries */
+ @media (max-width: 1200px) {
+    .who-are-we {
+        padding: 0;
+        min-height: 70em;
+    }
+
+    .who-are-we p{
+        text-align: center;
+        padding: 0 15%;
+    }
+
+    .who-are-we h3{
+        padding-left: 25%;
+    }
+ }
+
+ @media (max-width: 839px) {
+     .who-are-we {
+        padding: 0;
+        text-align: center;
+        position: static;
+        min-height: 50em;
+     }
+
+     .who-are-we h3{
+        padding: 0;
+        text-align: center;
+    }
+
+     
+ }
+
+
+ @media (max-width: 530px) {
+     .who-are-we p{
+        font-size: 15px;
+     }
+ }
+
+ @media (max-width: 400px) {
+    .who-are-we p{
+       font-size: 12px;
+    }
+    .who-are-we {
+       margin: 15% auto;
+    }
+}

@@ -1,0 +1,122 @@
+:root {
+    --primary-color: #2d2d2d;
+    --secondary-color: #1fe070;
+    --tercy-color: #ffffff;
+}
+
+.whatWeDo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--tercy-color);
+    padding-top: 4em;
+}
+
+span {
+    color: var(--secondary-color)
+}
+
+.whatWeDo h4 {
+    font-size: 50px;
+    padding-top: 0.5em;
+}
+
+.whatWeDo h3 {
+    text-align: center;
+    padding-top: 2em;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.solutions {
+    display: flex;
+    margin: 3em auto;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 0 5% 5% 5%;
+    width: 100;
+}
+
+.solutions img{
+    max-width: 100%;
+}
+
+.solutions div{
+    width: 50%;
+    padding: 5%;
+}
+
+
+
+.solutions h5, p{
+    color: var(--primary-color);
+    margin: 2em 0;
+}
+
+.solutions h5{
+    font-size: 30px;
+    margin: 0;
+}
+
+/* barrinha lateral perto da fita métrica */
+.solutions > div:nth-child(2) > p:nth-child(3){
+    border-left: solid 3px var(--secondary-color);
+    padding-left: 1em;
+}
+
+.services{
+    display: flex;
+    padding-bottom: 4em;
+    width: 90vw;
+    justify-content: space-between;
+}
+
+.services div{
+    text-align: center;
+    list-style-type: none;
+    padding: 2em;
+}
+
+.services div ul{
+    list-style-type: none;
+    
+}
+
+.services div ul li{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.services div h6{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 20px;
+}
+
+
+@media (max-width: 839px) {
+    .solutions{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .solutions div{
+        margin: 0;
+        padding: 0;
+    }
+
+    .whatWeDo h4{
+        text-align: center;
+    }
+
+    .whatWeDo div{
+        margin: 0;
+        padding:3%;
+    }
+
+    .services{
+        flex-direction: column;
+    }
+}
